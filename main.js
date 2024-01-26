@@ -11,3 +11,8 @@ function evenOrOdd(number) {
     return "Odd"
   }
 }
+
+//This code does not execute properly. Try to figure out why.
+function multiply(a, b){
+  return (a * b)
+}
