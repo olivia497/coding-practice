@@ -68,7 +68,14 @@ function repeatStr (n, s) {
 
 console.log(repeatStr(5,'hello '));
 
+//Write a function that removes the spaces from the string, then return the resultant string.
+function noSpace(x){
+  let newStr = x.replace(/ /g, "");
+  return newStr;
+}
+
 //Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
 function countSheeps(arrayOfSheeps) {
   return arrayOfSheeps.filter(Boolean).length;
 }
+
