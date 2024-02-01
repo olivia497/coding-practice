@@ -80,10 +80,10 @@ function countSheeps(arrayOfSheeps) {
 }
 
 //Find the smallest integer in the array
+let args = [99, 77, 4];
 class SmallestIntegerFinder {
   findSmallestInt(args) {
     return Math.min(...args)
   }
 }
 
-let args = [99, 77, 4];
