@@ -81,9 +81,30 @@ function countSheeps(arrayOfSheeps) {
 
 //Find the smallest integer in the array
 let args = [99, 77, 4];
+
 class SmallestIntegerFinder {
   findSmallestInt(args) {
     return Math.min(...args)
   }
 }
+
+//Your task is to create a function that does four basic mathematical operations.
+function basicOp(operation, value1, value2)
+{
+  // Code
+  if( operation == "+") {
+    return value1 + value2
+  }
+  if( operation == "-") {
+    return value1 - value2
+  }
+  if( operation == "*") {
+    return value1 * value2
+  }
+  if( operation == "/") {
+    return value1 / value2
+  }
+}
+
+console.log(basicOp('+', 5, 9))
 
