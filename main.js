@@ -109,8 +109,16 @@
 // console.log(basicOp('+', 5, 9))
 
 
-//drinking 0.5litres of water per hour, calculate water needed rounded down
-function litres(time) {
-  waterNeeded = Math.floor(time * 0.5);
-  return waterNeeded;
-};
+// //drinking 0.5litres of water per hour, calculate water needed rounded down
+// function litres(time) {
+//   waterNeeded = Math.floor(time * 0.5);
+//   return waterNeeded;
+// };
+
+
+// given random non-negative number, you have to return the digits of this number within an array in reverse order.
+function digitize(n) {
+  return n.toString().split('').reverse().map(Number);
+}
+
+ console.log(digitize(1, 2, 3));
