@@ -127,3 +127,12 @@ function digitize(n) {
 function newSentence(words){
   return words.join(' ');
 };
+
+//if the given numbers make  a square, return the area. If they make a rectangle, return the perimeter
+const areaOrPerimeter = function(l , w) {
+  if(l === w){
+    return l * w
+  }else{
+    return l + l + w + w
+  }
+};
