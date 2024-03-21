@@ -136,3 +136,15 @@ const areaOrPerimeter = function(l , w) {
     return l + l + w + w
   }
 };
+
+// Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
+function multiThreeZebra(a, b, c){
+  let product = a * b * c
+  if(product % 3 === 0){
+    alert('ZEBRA')
+  }else{
+    alert('Errrrr no.')
+  }
+}
+
+multiThreeZebra(3, 1, 1);
