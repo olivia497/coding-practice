@@ -148,3 +148,9 @@ function multiThreeZebra(a, b, c){
 }
 
 multiThreeZebra(3, 1, 1);
+
+//This code does not execute properly. Try to figure out why. = SOLVED
+function multiply(a, b){
+  let total = a*b;
+  return total
+}
