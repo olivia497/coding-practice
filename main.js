@@ -159,3 +159,5 @@ function multiply(a, b){
 function numberToString(num) {
   return(num.toString());
 }
+
+console.log(numberToString(15))
