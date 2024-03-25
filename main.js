@@ -154,3 +154,8 @@ function multiply(a, b){
   let total = a*b;
   return total
 }
+
+//convert num to string
+function numberToString(num) {
+  return(num.toString());
+}
