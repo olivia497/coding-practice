@@ -3,14 +3,6 @@ function greet(){
   return "hello world!"
 }
 
-//Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
-function evenOrOdd(number) {
-  if(number % 2 === 0){
-    return "Even"
-  }else{
-    return "Odd"
-  }
-}
 
 //This code does not execute properly. Try to figure out why. 
 function multiply(a, b){
@@ -161,3 +153,13 @@ function numberToString(num) {
 }
 
 console.log(numberToString(15))
+
+
+//Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+function evenOrOdd(number) {
+  if(number % 2 === 0){
+    return "Even"
+  }else{
+    return "Odd"
+  }
+}
