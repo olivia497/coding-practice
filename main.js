@@ -152,9 +152,7 @@ multiThreeZebra(3, 1, 1);
 function multiply(a, b){
   let total = a*b;
   return total
-}
-
-const multiply = a, b => a*b 
+};
 
 //create function that returns even for even numbers and off for odd numbers
 
