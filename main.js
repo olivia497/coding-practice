@@ -147,12 +147,6 @@ function multiply(a, b){
   return total
 }
 
-//convert num to string
-function numberToString(num) {
-  return(num.toString());
-}
-
-console.log(numberToString(15))
 
 
 //Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
@@ -162,4 +156,9 @@ function evenOrOdd(number) {
   }else{
     return "Odd"
   }
+}
+
+// convert number to string
+function numberToString(num) {
+  return num.toString()
 }
