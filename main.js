@@ -76,7 +76,8 @@ let args = [99, 77, 4];
 
 class SmallestIntegerFinder {
   findSmallestInt(args) {
-    return Math.min(...args)
+    let smallestArgs = Math.min(...args)
+    return smallestArgs
   }
 }
 
