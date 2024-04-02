@@ -31,7 +31,7 @@ function positiveSum(arr) {
 console.log(positiveSum([1, 2, 3, 4, 5, -3]));
 
 
-//Complete the solution so that it reverses the string passed into it.
+//write a function that reverses the string passed into it.
 function solution(str){
   return str.split('').reverse().join('');  
 }
