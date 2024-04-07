@@ -17,6 +17,16 @@ function makeNegative(num) {
 
 console.log(makeNegative(0));
 
+
+function makeNegative(num) {
+  if(num >= 0){
+    return (num * (-1))
+  }else{
+    return num
+  }
+}
+
+
 //You get an array of numbers, return the sum of all of the positives ones.
 function positiveSum(arr) {
   var total = 0;    
