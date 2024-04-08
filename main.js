@@ -169,6 +169,8 @@ function evenOrOdd(number) {
   }
 }
 
+const evenOrOdd = number => number % 2 === 0 ? 'Even' : 'Odd'
+
 // convert number to string
 function numberToString(num) {
   return num.toString()
