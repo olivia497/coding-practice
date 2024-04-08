@@ -235,3 +235,9 @@ function basicOp(operation, value1, value2){
     return value1 / value2
   }
 }
+
+// Given a non-empty array of integers, return the result of multiplying the values together in order. 
+function grow(x){
+  let total = x.reduce((a, b) => a * b, 1)
+  return total
+}
