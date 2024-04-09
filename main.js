@@ -257,3 +257,44 @@ function zeroFuel(distanceToPump, mpg, fuelLeft){
     return false
   }
 }
+
+
+// Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+function boolToWord( bool ){
+  if(bool === true){
+    return "Yes"
+  }else{
+    return "No"
+  }
+}
+
+// Your task is to make two functions ( max and min, or maximum and minimum, etc., depending on the language ) that receive a list of integers as input, and return the largest and lowest number in that list, respectively.
+
+const min = list => Math.min(...list)
+const max = list => Math.max(...list)
+
+
+// This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+const simpleMultiplication = number => number % 2 === 0 ? number * 8 : number * 9
+
+
+// All of the animals are having a feast! Each animal is bringing one dish. There is just one rule: the dish must start and end with the same letters as the animal's name. For example, the great blue heron is bringing garlic naan and the chickadee is bringing chocolate cake.
+function feast(beast, dish) {
+  if(beast[0] === dish[0] && beast[beast.length-1] === dish[dish.length-1]){
+    return true
+  }else{
+    return false
+  }
+}
+
+
+// Create a function which answers the question "Are you playing banjo?".
+// If your name starts with the letter "R" or lower case "r", you are playing banjo!
+function areYouPlayingBanjo(name) {
+  // Implement me
+  if(name.startsWith('R') || name.startsWith('r')){
+    return name + " plays banjo"
+  }else{
+    return name + " does not play banjo"
+  }
+}
