@@ -382,3 +382,7 @@ function doubleInt(i){
   let doubled = i * i;
   return doubled 
 }
+
+function doubleInt(i){
+  return i * i
+}
