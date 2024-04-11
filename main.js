@@ -377,3 +377,8 @@ function invertIt(arr){
 }
 
 //double the integer
+
+function doubleInt(i){
+  let doubled = i * i;
+  return doubled 
+}
