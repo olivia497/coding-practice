@@ -376,3 +376,4 @@ function invertIt(arr){
   return arr.map(num => -num)
 }
 
+//double the integer
