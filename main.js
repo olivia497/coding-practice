@@ -386,3 +386,5 @@ function doubleInt(i){
 function doubleInt(i){
   return i * i
 }
+
+const doubleInt = i => i*i;
