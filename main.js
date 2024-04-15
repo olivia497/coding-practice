@@ -327,3 +327,6 @@ function updateLight(current) {
 function invert(array) {
   return array.map(num => -num)
 }
+
+// Implement a function which convert the given boolean value into its string representation.
+const booleanToString = b => b.toString()
