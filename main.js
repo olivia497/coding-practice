@@ -358,3 +358,13 @@ const values = [2, 3, 6, 8]
 const sumWithInitial = values.reduce((acc, cVal) => acc + cVal, 0)
 
 console.log(sumWithInitial);
+
+//Write a program that asks the user for a word until the user types "stop." The program then shows each of these words except "stop"
+
+let d = [];
+while(1){
+  let word = prompt('Enter some word?');
+  if(word === 'stop') break;
+  d.push(word);
+}
+
