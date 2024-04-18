@@ -352,4 +352,9 @@ function positiveSum(arr){
   }
 }
 
+//Write code for an array that calculates and shows the sum of its values.
+const values = [2, 3, 6, 8]
 
+const sumWithInitial = values.reduce((acc, cVal) => acc + cVal, 0)
+
+console.log(sumWithInitial);
