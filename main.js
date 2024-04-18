@@ -368,3 +368,11 @@ while(1){
   d.push(word);
 }
 
+//Create an array of numbers. Return the additive inverse of each so the positives become negatives and the negatives become positive. 
+
+let arr = [1, -2, 3, -4, 5];
+
+function invertIt(arr){
+  return arr.map(num => -num)
+}
+
