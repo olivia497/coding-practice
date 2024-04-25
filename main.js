@@ -381,3 +381,5 @@ function invertIt(arr){
 function doubleInt(i){
   return i * i
 }
+
+//convert km/hr to cm/sec
