@@ -403,3 +403,5 @@ function helloWorld(){
 }
 
 const otherAngle = (a,b) => 180 - a - b
+
+const sayHello = name => `Hello, ${name}`
