@@ -392,3 +392,6 @@ function helloWorld(){
   let str = "Hello World!"
   console.log(str)
  }
+
+
+ const isPalindrome = x => x.toLowerCase() === x.split('').reverse().join('').toLowerCase() ? true : false
