@@ -395,3 +395,11 @@ function helloWorld(){
 
 
  const isPalindrome = x => x.toLowerCase() === x.split('').reverse().join('').toLowerCase() ? true : false
+
+
+ function otherAngle(a, b) {
+  let c = 180 - a - b;
+  return c;
+}
+
+const otherAngle = (a,b) => 180 - a - b
