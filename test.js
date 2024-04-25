@@ -7,6 +7,9 @@
 //   }
 // }
 
-const isPalindrome = x => x.toLowerCase() === x.split('').reverse().join('').toLowerCase() ? true : false
+// const isPalindrome = x => x.toLowerCase() === x.split('').reverse().join('').toLowerCase() ? true : false
 
-console.log(isPalindrome('hello'))
+// console.log(isPalindrome('hello'))
+
+
+const otherAngle = (a,b) => 180 - a - b
