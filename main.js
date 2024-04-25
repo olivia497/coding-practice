@@ -386,3 +386,9 @@ function doubleInt(i){
 const cockroachSpeed = s => Math.floor(s*27.777778)
 
 //test
+
+
+function helloWorld(){
+  let str = "Hello World!"
+  console.log(str)
+ }
