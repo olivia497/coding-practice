@@ -1,3 +1,6 @@
-String.prototype.isUpperCase = function() {
-  return this == this.toUpperCase()
+function unusualFive() {
+  return Num('5')
 }
+
+
+console.log(unusualFive())
