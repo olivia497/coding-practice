@@ -410,3 +410,6 @@ const sayHello = name => `Hello, ${name}`
 String.prototype.isUpperCase = function() {
   return this == this.toUpperCase()
 }
+
+
+const twiceAsOld = (dadYearsOld, sonYearsOld) => Math.abs(dadYaarsOld - (2 * sonYearsOld))
