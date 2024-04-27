@@ -405,3 +405,8 @@ function helloWorld(){
 const otherAngle = (a,b) => 180 - a - b
 
 const sayHello = name => `Hello, ${name}`
+
+//create method to check if string is all uppercase
+String.prototype.isUpperCase = function() {
+  return this == this.toUpperCase()
+}
