@@ -1,6 +1,8 @@
-function unusualFive() {
-  return Num('5')
-}
+// const haystack = ['bison', 'apple', 'needle', 'chair']
 
+// function findNeedle(haystack) {
+//   let needleIndex = haystack.indexOf('needle');
+//   console.log(`found in position ${needleIndex}`)
+// };
 
-console.log(unusualFive())
+// findNeedle(haystack);
