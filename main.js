@@ -412,4 +412,11 @@ String.prototype.isUpperCase = function() {
 }
 
 
-const twiceAsOld = (dadYearsOld, sonYearsOld) => Math.abs(dadYaarsOld - (2 * sonYearsOld))
+const twiceAsOld = (dadYearsOld, sonYearsOld) => Math.abs(dadYearsOld - (2 * sonYearsOld))
+
+function findNeedle(haystack) {
+  let needleIndex = haystack.indexOf('needle');
+  console.log(`found in position ${needleIndex}`)
+};
+
+findNeedle(haystack);
