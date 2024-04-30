@@ -420,3 +420,16 @@ function findNeedle(haystack) {
 };
 
 findNeedle(haystack);
+
+
+function findMultiples(integer, limit) {
+  //loop through and add each integer to an array
+  let result = [];
+  //start at the integer, counting up by the value of the integer
+  //stop counting at and including the limit 
+  for(let i = integer; i <= limit; i+=integer){
+    result.push(i);
+  };
+  
+  return result;
+}
