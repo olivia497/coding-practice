@@ -451,4 +451,4 @@ function abbrevName(name){
 
 // Write a function "greet" that returns "hello world!"
 
-const greet = phrase => "hello world!";
+const greet = () => "hello world!";
